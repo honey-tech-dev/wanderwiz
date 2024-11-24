@@ -28,6 +28,10 @@
     z-index: 99;
 }
 
+.bg-default {
+    background-color: var(--bs-bg-default) !important;
+}
+
 /*** Button Start ***/
 .btn {
     font-weight: 600;
@@ -214,7 +218,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--bs-secondary) !important;
+    color: var(--bs-white) !important;
 }
 
 .navbar-light .navbar-brand img {
@@ -316,7 +320,7 @@ h1.display-5 {
 
 @media (min-width: 991.98px) {
     .sticky-top .navbar-light {
-        background: var(--bs-light) !important;
+        background: #738ea1c0 !important;
     }
 
     /*** Top and Bottom borders go out ***/
@@ -920,7 +924,7 @@ h1.display-5 {
 
 /*** Footer Start ***/
 .footer {
-    background: var(--bs-primary);
+    background: var(--bs-bg-default);
 }
 
 .footer .footer-item a {
